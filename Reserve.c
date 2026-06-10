@@ -154,7 +154,6 @@ int main(){
     while(1){
         if(loggedinID==-1){
             displayMainMenu();
-            printf("Enter your choice:");
             int choice;
             scanf("%d",&choice);
         
