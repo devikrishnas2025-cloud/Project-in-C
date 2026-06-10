@@ -163,7 +163,7 @@ char username[50];
 char password[50];
 printf("Enter your Username:\n");
 scanf("%s",username);
-printf("Enter our Password:\n");
+printf("Enter your Password:\n");
 scanf("%s",password);
 //calling the loginUser function
 loggedinID=loginUser(users,NumUsers,username,password);
