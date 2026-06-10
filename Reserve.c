@@ -73,7 +73,7 @@ if(buses[busindex].availableSeats<seatToBook){
 else{
     buses[busindex].availableSeats-=seatToBook;
     printf("Booking Successful! Seat has been reserved.\n");
-    printf("Your bus number = %d", bus_id);
+    printf("Your bus number = %d\n", bus_id);
 }
 }
 }
