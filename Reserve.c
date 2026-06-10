@@ -93,7 +93,7 @@ void cancelTicket(struct Bus buses[],int NumBuses){
             }
 if(busindex==-1)
 {
-    printf("Bus with %d bus number not found",bus_id);
+    printf("Bus with %d bus number not found\n",bus_id);
 }
 else{
     printf("Enter the number of seats to cancel:");
