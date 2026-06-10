@@ -188,7 +188,6 @@ else{
 }
 else{
     displayUserMenu();
-    printf("Enter your choice:");
             int userchoice;
             scanf("%d",&userchoice);
 switch(userchoice){
